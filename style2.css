@@ -1,0 +1,115 @@
+body {
+ font-family: sans-serif;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+img {
+
+ height: 80vh
+}
+
+input {
+ display: block;
+}
+
+.icon {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+ border: 1px solid rgb(148, 147, 147);
+ border-radius: 7px;
+}
+
+.icon i {
+ font-size: 45px;
+}
+
+.icons {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.i {
+ color: rgba(11, 95, 212, 0.708);
+}
+
+input {
+ width: 80%;
+ height: 30px;
+ margin-top: 10px;
+ border-radius: 6px;
+}
+
+.sign {
+ height: 80vh;
+ width: 30%;
+ padding-left: 20px;
+}
+
+h1 {
+ color: rgba(11, 95, 212, 0.708);
+ font-size: 30px
+}
+
+a {
+ text-decoration: none;
+ color: blue;
+}
+
+button {
+ height: 50px;
+ width: 80%;
+ border-radius: 10px;
+ border: 0px;
+ background-color: rgba(11, 95, 212, 0.708);
+ color: white;
+ cursor: pointer;
+ font-size: 20px;
+}
+.ml{
+ width: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+hr{
+ position: absolute;
+}
+.pp {
+ display: flex;
+}
+
+.p {
+ width: 60px;
+ background-color: black;
+ height: 1px;
+ margin: auto;
+}
+@media screen and (max-width:800px) {
+ .sign {
+  width: 70%;
+ }
+}
+
+@media screen and (max-width:550px) {
+ body {
+  justify-content: space-between;
+  flex-direction: column;
+ }
+
+ img {
+  width: 100%;
+  height: 100%;
+ }
+
+ .sign {
+  width: 79%;
+ }
+}
